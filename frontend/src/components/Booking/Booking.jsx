@@ -54,7 +54,9 @@ const Booking = ({tour , avgRating})=>{
         }
        
     }
-
+const tomorrow = new Date();
+tomorrow.setDate(tomorrow.getDate() + 1);
+const minDate = tomorrow.toISOString().split('T')[0];
    
 
     return <div className="booking">
@@ -77,7 +79,13 @@ const Booking = ({tour , avgRating})=>{
                     <input type="number" placeholder="Phone" id="phone" required onChange={handleChange} />
                 </FormGroup>
                 <FormGroup className="d-flex align-items-center gap-3">
-                    <input type="date" placeholder="" id="bookAt" required onChange={handleChange} />
+                    <input
+    type="date"
+    id="bookAt"
+    required
+    min={minDate}
+    onChange={handleChange}
+  />
                     <input type="number" placeholder="Guest" id="guestSize" required onChange={handleChange} />
 
                 </FormGroup>

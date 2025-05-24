@@ -26,7 +26,9 @@ const SearchBar = ()=>{
             alert('Something went wrong')
         }
         const result = await res.json()
-        navigate(`/tours/search/getTourBySearch?city=${location}&distance=${distance}&maxGroupSize=${maxGroupSize}`,{state:result.data});
+        // navigate(`/tours/search/getTourBySearch?city=${location}&distance=${distance}&maxGroupSize=${maxGroupSize}`,{state:result.data});
+          navigate(`/tours/search/?city=${location}&distance=${distance}&maxGroupSize=${maxGroupSize}`,{state:result.data});
+
     };
 
     return <Col lg='12'>

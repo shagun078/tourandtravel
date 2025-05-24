@@ -2,9 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #ff7e01;
-  --secondary-color: #faa935;
-  --heading-color: #0b2727;
+  /* --primary-color: #ff7e01; */
+  --primary-color: #eb7b7f;
+  /* --secondary-color: #faa935; */
+  --secondary-color: #839de4;
+  --heading-color: #ob2727;
   --text-color: #6e7074;
   --font-name: "Montserrat", sans-serif;
   --subtitle-font-name: "Island Moments", cursive;

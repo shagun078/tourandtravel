@@ -1,0 +1,10 @@
+frontend/node_modules/
+frontend/.cache/
+# Backend
+backend/node_modules/
+
+# Environment
+.env
+
+*.log
+.DS_Store

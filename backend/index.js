@@ -16,6 +16,8 @@ const corsOptions = {
     origin: process.env.FRONTEND_URL,
     credentials: true
 }
+const PORT = process.env.PORT || 8000;
+
 
 //database connection
 mongoose.set("strictQuery", false);
@@ -41,7 +43,8 @@ app.use("/api/v1/booking", bookingRoute)
 app.get("/", (req, res) => {
     res.send("API is running.");
 });
-
 connect();
-
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
 export default app;

@@ -71,14 +71,22 @@ Once you signed in , You can book a tour for as many people as you want. Submit 
 ## Screenshots
 
 #### Sign In / Sign Up  
-![Sign In / Sign Up](link)
+![Sign In / Sign Up](https://raw.githubusercontent.com/shagun078/tourandtravel/main/frontend/public/login.png)
 
 ---
 
-#### Tour booking
-![Customize Assistant](link)
+#### Tour Booking  
+![Tour Booking](https://raw.githubusercontent.com/shagun078/tourandtravel/main/frontend/public/booking.png)
 
 ---
 
-#### Feedback/review
-![Home / Assistant Interaction](link)
+#### Tours  
+![Tours](https://raw.githubusercontent.com/shagun078/tourandtravel/main/frontend/public/tour.png)
+
+---
+
+#### Feedback / Review  
+![Feedback / Review](https://raw.githubusercontent.com/shagun078/tourandtravel/main/frontend/public/review.png)
+
+---
+
